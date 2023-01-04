@@ -65,6 +65,7 @@ function MemoryGame() {
         setCardsChosen([])
         setPoints(0)
         setOpenCards([])
+        window.location.reload();
     }
 
     useEffect(() => {
@@ -87,6 +88,7 @@ function MemoryGame() {
             <div className="d-flex justify-content-center mt-2">
                 <h3>Points: {points}</h3>
                 <button className="ml-4" onClick={startOver}>Start over</button>
+                <span className="ml-4 mt-2">Made with ❤️ by Kanti</span>
             </div>
         </div>
     )

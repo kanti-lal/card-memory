@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import MemoryGame from './components/MemoryGame';
 function App() {
   return (
-    <div className="App">
-     <div className=''>card memory game</div>
+    <div className="container my-5">
+      <MemoryGame />
     </div>
   );
 }

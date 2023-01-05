@@ -1,7 +1,12 @@
 .img-fixed {
   object-fit: cover;
-  height: 150px;
-  width: 180px;
-  padding: 2px 0 2px 0; 
+  height: 135px;
+  width: 130px;
+  padding: 2px;
   border-radius: 6px;
+}
+
+
+.mt-n1 {
+  margin-top: -40px !important;
 }

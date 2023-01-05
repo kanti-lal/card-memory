@@ -73,8 +73,8 @@ function MemoryGame() {
     }, [])
 
     return (
-        <div >
-            <h2 className="text-center mt-n5">CARD MEMORY GAME</h2>
+        <div className="" >
+            <h2 className="text-center mt-n1">CARD MEMORY GAME</h2>
             <div className="row no-gutters">
                 {imagesArray?.map((image, index) => {
                     return (
@@ -86,9 +86,9 @@ function MemoryGame() {
 
             </div>
             <div className="d-flex justify-content-center mt-2">
-                <h3>Points: {points}</h3>
-                <button className="ml-4" onClick={startOver}>Start over</button>
-                <span className="ml-4 mt-2">Made with ❤️ by Kanti</span>
+                <h3 className="mt-2">Points: {points}</h3>
+                <button className="ml-4 mt-2 " onClick={startOver}>Start over</button>
+                <span className="ml-4 mt-3">Made with ❤️ by Kanti</span>
             </div>
         </div>
     )

@@ -86,7 +86,7 @@ function MemoryGame() {
 
             </div>
             <div className="d-flex justify-content-center mt-2">
-                <h4 className="mt-2">Points: {points}</h4>
+                <h3 className="mt-2">Points: {points}</h3>
                 <button className="ml-4 mt-2" onClick={startOver}>Start over</button>
                 <span className="ml-4 mt-3">Made with ❤️ by Kanti</span>
             </div>

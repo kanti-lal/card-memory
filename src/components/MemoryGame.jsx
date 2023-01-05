@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { images } from "../data/data"
 
 function MemoryGame() {
-    const BLANK_CARD = "https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    const BLANK_CARD = "https://images.pexels.com/photos/3683107/pexels-photo-3683107.jpeg?auto=compress&cs=tinysrgb&w=600"
     const [imagesArray, setImagesArray] = useState([])
     const [cardsChosen, setCardsChosen] = useState([])
     const [cardsChosenIds, setCardsChosenIds] = useState([])

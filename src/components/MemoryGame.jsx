@@ -73,8 +73,8 @@ function MemoryGame() {
     }, [])
 
     return (
-        <div className="">
-            <h2 className="text-center">CARD MEMORY GAME</h2>
+        <div >
+            <h2 className="text-center mt-n5">CARD MEMORY GAME</h2>
             <div className="row no-gutters">
                 {imagesArray?.map((image, index) => {
                     return (
